@@ -3,6 +3,8 @@
 # vectorised operations, matrix multiplication,
 # and statistical calculations using a CSV dataset.
 
+
+#1D,2D,3D ARRAYS
 import numpy as np
 print ("Hello,Numpy!")
 arr=np.array([10,20,30,40,50])
@@ -30,6 +32,7 @@ print("\n3D Array:")
 print(arr_3d)
 print("Shape:",arr_3d.shape)
 
+#BOARDCASTING
 numbers=np.array([10,20,30,40,50])
 broadcast_result=numbers+5
 print("\nBroadcasting:")
