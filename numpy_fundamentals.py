@@ -1,3 +1,8 @@
+# W1D1: Python for ML - NumPy Fundamentals
+# This script demonstrates NumPy arrays, broadcasting,
+# vectorised operations, matrix multiplication,
+# and statistical calculations using a CSV dataset.
+
 import numpy as np
 print ("Hello,Numpy!")
 arr=np.array([10,20,30,40,50])
